@@ -145,7 +145,8 @@ print("path :::: $path");
     Database? mydb = await db;
 
     final response = await mydb!.insert(
-      databaseName, movie.toJson(),conflictAlgorithm: ConflictAlgorithm.ignore,
+      databaseName, movie.toJson()
+      ,conflictAlgorithm: ConflictAlgorithm.ignore,
     );
     return response;
   }

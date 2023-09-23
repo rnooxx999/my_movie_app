@@ -1,10 +1,4 @@
 
-
-
-import 'dart:async';
-import 'dart:convert';
-import 'package:http/http.dart' as http;
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:movies_app/providers/provider_search.dart';
@@ -13,10 +7,7 @@ import 'package:movies_app/model/movie.dart';
 import 'package:movies_app/seartch/search_click_icon_widget.dart';
 import 'package:movies_app/seartch/search_result_list.dart';
 import '../utilities/widgets/future_waiting_error.dart';
-import '../utilities/widgets/image_stack_widget.dart';
 import 'package:provider/provider.dart';
-
-import '../data/api/links_api_util.dart';
 
 class SearchScreen extends StatefulWidget {
 

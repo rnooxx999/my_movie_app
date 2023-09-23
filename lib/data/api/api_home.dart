@@ -12,6 +12,8 @@ class ApiHome {
   String latest = "movie/latest";
   String topRated = "movie/top_rated";
 
+
+
   static Future<List<Movie>> gePopularMovies() async {
     List<Movie> movie = [];
 
