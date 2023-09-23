@@ -57,6 +57,7 @@ class _SearchScreenState extends State<SearchScreen> {
     );
 
   }
+
   AppBar searchFalse(){
     return AppBar(
         actions: [IconButton(icon: Icon(Icons.search),
